@@ -1,0 +1,11 @@
+# from tkinter import*
+# root=Tk()
+# listbox=Listbox(root,width=45,height=15)
+# listbox.pack(pady=20)
+# listbox.insert(0,"kunjumon")
+# listbox.insert(1,"girija")
+# listbox.insert(2,"akhila")
+# listbox.insert(3,"anila")
+# root.geometry("400x240")
+# root.title("family.com")
+# root.mainloop()

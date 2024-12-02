@@ -1,26 +1,19 @@
-# from tkinter import*
-# root=Tk()
-# root.geometry("300x200")
+from tkinter import*
+root=Tk()
 
-# w = Label(root,text='GeeksForGeeks',font="50")
-# w.pack()
+m1=Menubutton(root,text="FRIENDS")
+m1.menu=Menu(m1)
+m1["menu"]=m1.menu
+var1=IntVar()
+var2=IntVar()
+var3=IntVar()
+m1.menu.add_checkbutton(label="ANILA",variable=var1,onvalue=1,offvalue=0)
+m1.menu.add_radiobutton(label="ABHIJITH",variable=var2)
+m1.menu.add_radiobutton(label="NONI",variable=var3)
 
-# menubutton=Menubutton(root, text = "Menu")
-
-# menubutton.menu = Menu(menubutton)
-# menubutton["menu"] = menubutton.menu
-
-# var1 = IntVar()
-# var2 = IntVar()
-# var3 = IntVar()
-
-# menubutton.menu.add_checkbutton(label = "courses",
-#                                 variable = var1)
-# menubutton.menu.add_checkbutton(label= "students",
-#                                 variable = var2)
-# menubutton.menu.add_checkbutton(label = "careers",
-#                                 variable = var3)
+root.geometry("300x220")
+m1.pack()
+m1.mainloop()
 
 
-# menubutton.pack()
-# root.mainloop()
+
